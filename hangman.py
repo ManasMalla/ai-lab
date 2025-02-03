@@ -25,6 +25,7 @@ def print_part(part):
         print(" \\")
 
 def start_game():
+    print("Welcome to Hangman 💀! You are Player 2.")
     word = words[random.randint(0, len(words) - 1)]
     chars = list(word)
     guess = []
@@ -54,7 +55,8 @@ def start_game():
                 guess.append(input_char)
                 print(chr(27) + "[2J")
                 if len(guess) == len(word):
-                    print("You win!")
+                    print("Word: ", word)
+                    print("You win! 🎉")
                     shouldGuess = False
                     exit(0)
                 if len(figure) > 0:
@@ -66,7 +68,8 @@ def start_game():
                 if len(body_parts) > 0:
                     figure.append(body_parts.pop())
                 else: 
-                    print("You lose!")
+                    print("You lose! Player 1 wins!")
+                    print("Word: ", word)
                     shouldGuess = False
                     exit(0)
 
