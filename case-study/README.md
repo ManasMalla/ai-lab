@@ -38,7 +38,7 @@ Add traps in certain rooms that make them temporarily inaccessible, requiring re
 
 ### Output
 
-Shortest Path: ['A', 'B', 'E', 'G']
+`Shortest Path: ['A', 'B', 'E', 'G']`
 
 ---
 
@@ -74,7 +74,7 @@ Add teleportation points that can drastically change the search path.
 
 ### Output
 
-Shortest Path to Arena: ['A', 'B', 'E', 'G', 'H']
+`Shortest Path to Arena: ['A', 'B', 'E', 'G', 'H']`
 
 ---
 
@@ -114,4 +114,4 @@ Incorporate additional variables like evolution stones or held items.
 
 ### Output
 
-Optimized Evolution Plan: ['Train', 'Evolve', 'Use Item', 'Train', 'Train']
+`Optimized Evolution Plan: ['Train', 'Evolve', 'Use Item', 'Train', 'Train']`
